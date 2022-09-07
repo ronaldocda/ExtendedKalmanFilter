@@ -22,4 +22,5 @@ RobotisOp3 {
 }
 E-puck {
   translation 0.109595 -1.36384 1.77636e-15
+  controller "ros"
 }

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -W -Wall  -shared -Wl,-soname,libwalk_creator.so -o /home/ronaldo/Tcc/devel/lib/libwalk_creator.so CMakeFiles/walk_creator.dir/src/walk_creator.cpp.o 

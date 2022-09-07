@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="duration" default="20" doc="Duration in seconds"/>
+  <arg name="auto_close" default="false" doc="Startup mode"/>
+  <node name="SAKURA_Comm" pkg="comm_webots" type="commWebots_node" args="$(arg duration)" required="$(arg auto_close)" output="screen"></node>
+  <node name="py_Comm" pkg="comm_py" type="conversions_2_comm_w_webots.py"  output="screen"></node>
+
+
+</launch>

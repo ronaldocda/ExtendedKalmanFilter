@@ -1,0 +1,23 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.22823260450223598 -0.0016201831811841793 0.9736052861650789 3.1248103861428875
+  position 6.396266946448272 0.27247129055069286 2.415018330028714
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.0283469 0.013439 1.9984e-15
+  floorSize 5 5
+}
+DEF EPUCK E-puck {
+  translation 0.109595 -1.36384 1.77636e-15
+  name "ros_test"
+  controller "ros"
+  controllerArgs [
+    "--name=ros_test"
+  ]
+}

@@ -9,4 +9,4 @@ projectionMode: PERSPECTIVE
 orthographicViewHeight: 3.28308
 textFiles: 0 "controllers/MyControllers/MyController.cpp"
 renderingDevicePerspectives: SAKURA:Camera;0;0.154167;0;0
-renderingDevicePerspectives: e-puck:camera;1;1;0;0
+renderingDevicePerspectives: e-puck:camera;0;1;0;0

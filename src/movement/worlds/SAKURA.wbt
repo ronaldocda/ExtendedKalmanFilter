@@ -1,0 +1,68 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.08648217820701048 -0.08715970692057282 0.9924333823194839 3.189105713963487
+  position 2.249435541098886 0.06421050926189548 0.5276592644342643
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.0283469 0.013439 1.9984e-15
+  floorSize 5 5
+}
+RobotisOp3 {
+  hidden position_6_0 -3.346749860758619e-07
+  hidden position_6_1 3.325963924978395e-07
+  hidden position_6_2 -0.05654865722295099
+  hidden position_6_3 -1.287659046056433e-07
+  hidden position_6_4 -2.690391465165476e-08
+  hidden rotation_7 0 0 1 3.345302391148161e-07
+  hidden position_7_0 -2.3515197966617052e-07
+  hidden rotation_8 0.9999999999999999 0 0 2.346637211445515e-07
+  hidden position_8_0 1.2672695678579206e-07
+  hidden rotation_9 0 1 0 1.264405455326821e-07
+  hidden position_9_0 1.2811658249200282e-07
+  hidden rotation_10 0 1 0 1.264405455326821e-07
+  hidden position_10_0 -1.3028213619037388e-07
+  hidden rotation_11 0 1 0 1.2990531157078367e-07
+  hidden position_11_0 -3.0565477347817894e-07
+  hidden rotation_12 -1 0 0 3.053829302179697e-07
+  hidden rotation_13 0 0 -1 3.332000937312532e-07
+  hidden position_13_0 2.599335689319201e-07
+  hidden rotation_14 -1 0 0 2.598106231415675e-07
+  hidden position_14_0 -1.2651073344471797e-07
+  hidden rotation_15 0 1 0 1.264405455326821e-07
+  hidden position_15_0 -1.279954444655118e-07
+  hidden rotation_16 0 1 0 1.264405455326821e-07
+  hidden position_16_0 1.3025668442244068e-07
+  hidden rotation_17 0 1 0 1.2990531157078367e-07
+  hidden position_17_0 -3.2088454382517284e-07
+  hidden rotation_18 -1 0 0 3.2098083538618743e-07
+  hidden rotation_19 0 -1 0 0.056548657222954844
+  hidden position_19_0 1.4702653782485493
+  hidden rotation_20 -1 0 0 1.4702653782485493
+  hidden position_20_0 -9.917595633623932e-09
+  hidden rotation_22 0 1 0 1.2990531157078367e-07
+  hidden position_22_0 -1.4702653783148678
+  hidden rotation_23 1 0 0 1.4702653783148678
+  hidden position_23_0 1.301575177843603e-08
+  hidden rotation_25 0 0 -1 2.9802322387695313e-08
+  hidden position_25_0 4.010444085582922e-08
+  hidden rotation_26 0 -1 0 4.2146848510894035e-08
+  translation 0.001946354311011032 -0.05460269135117379 0.27841794396998176
+  rotation 0.0005720609196128862 -0.029848256369658082 0.9995542778348736 0.05489992415173386
+  name "SAKURA"
+  controller "ros"
+  controllerArgs [
+    "--name=SAKURA"
+  ]
+  bodySlot [
+    InertialUnit {
+      name "Inertial_Unit"
+      noise 0.04
+    }
+  ]
+}

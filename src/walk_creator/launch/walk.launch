@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="duration" default="20" doc="Duration in seconds"/>
+  <arg name="auto_close" default="false" doc="Startup mode"/>
+  <node name="SAKURA_walk" pkg="walk_creator" type="walk_creator_node" args="$(arg duration)" required="$(arg auto_close)" output="screen"></node>
+
+    
+
+</launch>
+ 
+ 
+

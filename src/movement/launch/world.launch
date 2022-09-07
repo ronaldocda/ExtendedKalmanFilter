@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="no_gui" default="false," doc="Start Webots with minimal GUI"/>
+  <arg name="mode" value="realtime"/>
+    <arg name="world" value="$(find webots_ros)/worlds/walking_tcc.wbt"/>
+    
+
+    </launch>

@@ -1,0 +1,2 @@
+comm_py:comm_webots:ekf:movement:tcc_msg:walk_creator
+-DCATKIN_DEVEL_PREFIX=/home/ronaldo/Tcc/devel -DCMAKE_INSTALL_PREFIX=/home/ronaldo/Tcc/install -G Unix Makefiles
